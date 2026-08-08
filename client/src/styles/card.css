@@ -1,0 +1,27 @@
+.head-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arran{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 5px;
+}
+.Cards{
+    background-color: rgb(238, 243, 253);
+    color: rgb(10, 14, 32);
+    border:  1px solid black;
+    height:  200px;
+    border-radius: 9px;
+    width: 400px;
+    font-family:  sans-serif; 
+    display: flex; 
+    flex-direction: column;
+    column-gap: 2px;
+    justify-content: center;
+    align-items: center;
+}

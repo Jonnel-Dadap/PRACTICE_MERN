@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    min-height: 100%;
+    width: 100%;
+}
+
+#Theme-css {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#Theme-css.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#Theme-css.dark {
+    background-color: #222222;
+    color: #ffffff;
+}
