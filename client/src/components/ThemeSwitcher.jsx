@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import '../styles/Theme.css';
 import { Flashlight,  FlashlightOff } from 'lucide-react';
 import Fromserver from "./Respon";
-
+import ForAdmins from "./Admin";
 function ThemeSwitcher() {
     const [theme, setTheme] = useState("light");
 
@@ -35,6 +35,7 @@ function ThemeSwitcher() {
         Switch Theme
     </button>
     <Fromserver />
+    <ForAdmins />
         </div >
     );
 }
