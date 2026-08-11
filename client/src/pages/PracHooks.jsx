@@ -1,8 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Console from "./useEffect";
-import SwitchForTimer from "./UIForTimer";
-import ThemeSwitcher from "./ThemeSwitcher";
+// import Console from "../components/useEffect";
+// import SwitchForTimer from "../components/UIForTimer";
+// import ThemeSwitcher from "../components/ThemeSwitcher";
+import Console from '../components/useEffect'
+import SwitchForTimer from '../components/UIForTimer'
+import ThemeSwitcher from '../components/ThemeSwitcher'
 
 
 function TestHooks() {
@@ -12,7 +15,6 @@ function TestHooks() {
     };
     return (
         <>
-           
             < Console />
             <h1>this page is for Practice Hooks</h1>
             <button onClick={handleRedirection}>Back to Home Page</button>

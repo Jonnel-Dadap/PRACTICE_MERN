@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Test from "../Test";
-import UserCard from './UserCard' // Child practice.
-import IncrementAndDecrement from "./counter";
-import Todo from "./Todo";
+import UserCard from '../components/UserCard' //child practice
+import IncrementAndDecrement from "../components/counter";
+import Todo from "../components/Todo";
 import '../styles/card.css';
 
 const Practice = () => {

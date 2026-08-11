@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const User = require("../models/specialUser");
+const User = require("../models/SpecialUser")
 
 router.get("/fetch", async(req, res)=> {
     try{
@@ -15,4 +15,4 @@ router.get("/fetch", async(req, res)=> {
     }
 });
 
-module.exports = router;
+module.exports = router; 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import TodoItem from './TodoItem'
+// import TodoItem from '../components/TodoItem'
+import TodoItem from '../components/TodoItem'
 
 const Todolist = () => {
   const [state, setState] = useState({
